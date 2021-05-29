@@ -66,7 +66,7 @@
             <x-cards.card-line-chart title="Sales Value" subtitle="Overview" chartId="sales-line-chart" theme="dark" />
         </div>
         <div class="w-full xl:w-4/12 sm:px-4">
-            <x-cards.card-bar-chart title="Total Orders" subtitle="Performance" chartId="bar-chart" />
+            <x-cards.card-bar-chart title="Total Orders" subtitle="Performance" chartId="bar-chart" theme="light" />
         </div>
     </div>
     <div class="flex flex-wrap mt-4">
