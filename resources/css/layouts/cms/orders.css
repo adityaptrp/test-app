@@ -1,0 +1,20 @@
+
+.orders-import-btn:focus {
+    z-index: 5;
+}
+.orders-import-btn {
+    position: relative;
+}
+.orders-import-btn::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    background-color: rgba(229, 229, 229);
+}
+
+.orders-eksport-btn:focus {
+    z-index: 5;
+}

@@ -1,0 +1,15 @@
+
+@import './layouts/general/app.css';
+@import './layouts/general/dropdown.css';
+@import './layouts/general/navigation.css';
+@import './layouts/general/verify.css';
+@import './layouts/home/header.css';
+@import './layouts/home/design.css';
+@import './layouts/home/services.css';
+@import './layouts/home/why.css';
+@import './layouts/home/features.css';
+@import './layouts/cms/app.css';
+@import './layouts/cms/orders.css';
+@import './layouts/cms/sidebar.css';
+@import './layouts/cms/toggle-switch.css';
+@import './layouts/designs/varuna.css';

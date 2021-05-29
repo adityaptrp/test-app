@@ -1,0 +1,15 @@
+
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+.dropdown.ac .dropdown-menu {
+    display: block;
+}
+.dropdown.ac .dropdown-btn.dd-table {
+    background-color: rgba(229, 229, 229);
+}
+
+.dropdown-menu ul li a:hover i.fa-sign-out {
+    color: rgba(161, 116, 85);
+}

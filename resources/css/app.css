@@ -1,0 +1,8 @@
+@import 'tippy.js/dist/tippy.css';
+
+@tailwind base;
+@tailwind components;
+
+@import 'base-style.css';
+
+@tailwind utilities;

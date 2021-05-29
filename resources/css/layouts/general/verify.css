@@ -1,0 +1,62 @@
+
+.verify-wr {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bg-color);
+}
+.verify-img {
+    width: 65vw;
+}
+
+.btn-back-h-v {
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #000;
+    padding: 10px;
+    border-radius: 99999px;
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
+}
+
+.contact-supp {
+    border-width: 1px;
+    border-color: rgb(224, 224, 224);
+    color: 1px;
+}
+.verify-wr button[type=submit]:disabled {
+    background-color: rgb(202, 150, 116);
+    background-image: none;
+    cursor: not-allowed;
+}
+
+
+@screen sm {
+    .verify-img {
+        width: 50vw;
+    }
+
+    .btn-back-h-v {
+        left: 20px;
+        top: 50px;
+    }
+}
+
+@screen md {
+    .verify-img {
+        width: 380px;
+    }
+}
+
+@screen xl {
+    .verify-img {
+        width: 400px;
+    }
+}

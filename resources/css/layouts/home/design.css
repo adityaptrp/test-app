@@ -1,0 +1,44 @@
+
+.hm-design-wr {
+    position: relative;
+}
+.hm-design-wr::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: -150px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #F7F5EE;
+}
+
+.hm-design-wr > svg {
+    position: absolute;
+    top: 0;
+    /* background-color: salmon; */
+    transform: translateY(-95%);
+    z-index: -1;
+}
+
+@screen md {
+    .hm-design-wr:before {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: -150px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #F7F5EE;
+    }
+
+    .hm-design-wr > svg {
+        position: absolute;
+        transform: translateY(-95%);
+        top: 0;
+        z-index: -1;
+    }
+}

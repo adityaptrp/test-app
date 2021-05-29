@@ -1,0 +1,20 @@
+
+nav.navigation-wr > div {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1536px;
+}
+
+.navigation-sm {
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.8s;
+}
+
+.nav-link-accordion.ac > div > i {
+    transform: rotate(-90deg);
+}
+.nav-link-accordion > div > i {
+    transition: all 0.5s;
+}
